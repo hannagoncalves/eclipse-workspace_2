@@ -1,0 +1,13 @@
+
+public class Application {
+	public static void main(String[] args) {
+		
+		int x=20;
+		if(x==20) {
+			System.out.println("yeah");
+		}
+		else {
+			System.out.println("nope");
+		}
+	}
+}

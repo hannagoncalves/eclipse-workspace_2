@@ -1,0 +1,14 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		int myX=105;
+		short myS=550;
+		long myL=6654;
+		
+		System.out.println(myX);
+		System.out.println(myS);
+		System.out.println(myL);
+	}
+
+}

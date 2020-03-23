@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Appli {
+	public static void main(String[] args) {
+		//create scanner object
+		Scanner input= new Scanner (System.in);
+		//output the prompt
+		System.out.println("Enter Text: ");
+		//wait for the text input
+		String line=input.nextLine();
+		//give feedback
+		System.out.println("You typed: "+line);
+	}
+}

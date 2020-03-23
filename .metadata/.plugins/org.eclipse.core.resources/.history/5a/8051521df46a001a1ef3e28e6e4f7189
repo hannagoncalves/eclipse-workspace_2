@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Appli {
+	public static void main(String[] args) {
+		//create scanner object
+		Scanner input= new Scanner (System.in);
+		//output the prompt
+		System.out.println("Enter number: ");
+		//wait for the input
+		int value=input.nextInt();
+		//give feedback
+		System.out.println("You typed: "+value);
+	}
+}

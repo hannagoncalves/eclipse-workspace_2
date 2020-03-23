@@ -1,0 +1,10 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		int myX=105;
+		
+		System.out.println(myX);
+	}
+
+}
